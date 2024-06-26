@@ -1,6 +1,6 @@
 {
 	"name": "x-addressing-grammar",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "vCard X-ADDRESSING-GRAMMAR tooling for JS",
 	"main": "index.js",
 	"devDependencies": {
