@@ -31,7 +31,7 @@ export class AddresingGrammar {
 		if (typeof(pronoun) == 'string' && !!grammaticalCase && !!determination) {
 			this.pronouns.push({ morphology: { grammaticalCase, determination }, pronoun })
 		} else if (pronoun.hasOwnPropperty("morfology") && pronoun.hasOwnPropperty("pronoun")) {
-			this.pronouns.push(pronoun)
+			this.pronouns.push({ morphology: pronoun.morfology, pronoun: pronoun.pronoun })
 		}
 
 		return this
